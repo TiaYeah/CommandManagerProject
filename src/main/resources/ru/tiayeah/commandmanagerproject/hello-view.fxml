@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.tiayeah.commandmanagerproject.HelloController">
+    <children>
+        <Button fx:id="DefaultCreateButton" layoutX="386.0" layoutY="22.0" mnemonicParsing="false" onMouseClicked="#onDefaultCreateButtonClick" prefHeight="42.0" prefWidth="158.0" text="Генерация обычной матрицы" textAlignment="CENTER" wrapText="true" />
+        <AnchorPane fx:id="AnchorPane" layoutX="21.0" layoutY="22.0" prefHeight="325.0" prefWidth="348.0" style="-fx-background-color: lightgray;" />
+        <Button fx:id="SparseCreateButton1" layoutX="386.0" layoutY="81.0" mnemonicParsing="false" onMouseClicked="#changeMatrix" prefHeight="42.0" prefWidth="158.0" text="Изменить значение матрицы" textAlignment="CENTER" textOverrun="CLIP" wrapText="true" />
+      <Button layoutX="386.0" layoutY="143.0" mnemonicParsing="false" onMouseClicked="#undoClick" prefHeight="42.0" prefWidth="158.0" text="Отменить операцию" />
+    </children>
+</Pane>
